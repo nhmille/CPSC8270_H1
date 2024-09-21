@@ -45,19 +45,19 @@ for i in range(7):
     model1 = CNN(learning_rate=0.001)
     print(f"Training {i}")
     if i == 0:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader1, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader1, test_loader, batch_sizes[i], epochs=10)
     if i == 1:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader2, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader2, test_loader, batch_sizes[i], epochs=10)
     if i == 2:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader3, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader3, test_loader, batch_sizes[i], epochs=10)
     if i == 3:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader4, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader4, test_loader, batch_sizes[i], epochs=10)
     if i == 4:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader5, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader5, test_loader, batch_sizes[i], epochs=10)
     if i == 5:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader6, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader6, test_loader, batch_sizes[i], epochs=10)
     if i == 6:
-        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader7, test_loader, batch_sizes[i], epochs=20)
+        train_accuracy, test_accuracy, train_loss, test_loss, sensitivity = train(model1, train_loader7, test_loader, batch_sizes[i], epochs=10)
 
     train_losses.append(train_loss)
     test_losses.append(test_loss)
