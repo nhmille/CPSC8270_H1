@@ -2,10 +2,10 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 
-from Min_Ratios_2_2_Supp import count_parameters
-from Min_Ratios_2_2_Supp import target_function
-from Min_Ratios_2_2_Supp import NN
-from Min_Ratios_2_2_Supp import train
+from Min_Ratios_2_3_Supp import count_parameters
+from Min_Ratios_2_3_Supp import target_function
+from Min_Ratios_2_3_Supp import NN
+from Min_Ratios_2_3_Supp import train
 
 # CPSC 8430 HW 1
 # Part 2
